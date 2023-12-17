@@ -317,26 +317,27 @@ img {
     background-color: #404bbf;
 }
 
-.icon-item{
+.icon-item {
     display: flex;
-    align-items: center;
-    justify-content: center;
     width: 40px;
     height: 40px;
-    padding: 12px;
-    background-color: rgba(77, 90, 229, 1);
+    background-color: #4d5ae5;
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 10;
 }
 
-.icon-item{
-    /* display: flex;
+.link-icon{
+    padding: 12px;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
     width: 100%;
     height: 100%;
     padding: 12px;
+    border-radius: 50%;
     fill: rgba(244, 244, 253, 1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 100;
 }
 
 /* Portfolio */
@@ -430,22 +431,14 @@ img {
     gap: 16px;
 }
 
+.footer .link-icon{
+    padding: 8px;
+}
+
 .socialmedia{
     color: rgba(255, 255, 255, 1);
     margin-bottom: 16px;
     font-weight: 500;
-}
-
-.link-icon{
-    display: flex;
-    width: 40px;
-    height: 40px;
-    padding: 8px;
-    align-items: center;
-    justify-content: center;
-    background-color:#4d5ae5;
-    border-radius: 50%;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-list .icon-item:hover,
