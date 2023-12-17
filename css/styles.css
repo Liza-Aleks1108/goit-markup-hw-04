@@ -329,9 +329,9 @@ img {
 }
 
 .icon-item{
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     width: 100%;
     height: 100%;
     padding: 12px;
@@ -428,12 +428,6 @@ img {
 
 .footer .icon-list{
     gap: 16px;
-}
-
-.icon-item{
-    width: 40px;
-    height: 40px;
-    padding: 8px;
 }
 
 .socialmedia{
